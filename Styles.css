@@ -1,0 +1,373 @@
+:root {
+    --btnColor: #73b300;
+    --btnColor_1: #4BE159;
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.imgProduct {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+
+.taka {
+    padding-left: 40%;
+    color: var(--btnColor);
+}
+
+
+
+
+
+/* button hover Effect */
+
+/* Basic button styling */
+.btn {
+    display: inline-block;
+    padding: 18px 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: var(--btnColor);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect */
+.btn:hover {
+    background-color: var(--btnColor_1);
+    transform: scale(1.05);
+}
+
+/* Responsive adjustments */
+
+
+
+
+/* @media (max-width: 768px) {
+    .btn {
+        padding: 12px 24px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn {
+        padding: 14px 28px;
+        font-size: 20px;
+    }
+} */
+
+
+
+.btnMain {
+
+    height: 260px;
+    position: relative;
+
+}
+
+
+.btn {
+
+    margin-top: 9px;
+    width: 298px;
+    justify-content: center;
+
+
+}
+
+.btnFopur {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.desc {
+    margin-top: 19px;
+}
+
+.btnscon {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: var(--btnColor);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 7px;
+    top: 50%;
+    left: 50%;
+
+}
+
+.btnscon:hover {
+    background-color: var(--btnColor_1);
+    transform: scale(1.05);
+}
+
+.imgScondtwo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 154px;
+    height: 135px;
+}
+
+.scondImgbtn {
+    margin-left: auto;
+    margin-right: auto;
+    width: 189px;
+    display: inline-block;
+    margin-top: 35px;
+    position: relative;
+}
+
+
+.Pqrsentes {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    position: absolute;
+    left: 114px;
+    background-color: var(--btnColor_1);
+    color: rgb(175, 54, 54);
+
+}
+
+
+.Number {
+    color: var(--btnColor);
+    text-align: center;
+
+}
+
+.Socailmd {
+    width: 99px;
+    height: 138px;
+    display: flex;
+    background-color: yellowgreen;
+}
+
+
+.socmdia {
+    width: 26px;
+    height: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.footer {
+    background-color: #ffffff;
+    color: #32CD32;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #32CD32;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding-top: 34px;
+    margin-top: 44px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.icon {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.social-media {
+    margin-bottom: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.copyright {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #32CD32;
+}
+
+.footer-nav a {
+    margin: 0 15px;
+}
+
+.footer-icon {
+    width: 25px;
+    height: 25px;
+}
+
+
+
+.sceoltop {
+    cursor: pointer;
+}
+
+
+div.sticky {
+    position: sticky;
+    bottom: 0;
+
+}
+
+button .sceoltop22 {
+    width: 33px;
+    height: 33px;
+    background-color: #4BE159;
+}
+
+
+
+
+
+.containerFirst {
+
+    width: 160px;
+    height: 285px;
+    position: relative;
+    border: 5px solid green;
+    margin-left: 12px;
+    display: inline-block;
+
+}
+
+.imgone {
+    width: 140px;
+    height: 100;
+    display: block;
+    margin: 5px;
+}
+
+.btn1 {
+    position: absolute;
+}
+
+
+
+
+
+.btn2 {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: var(--btnColor);
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin: 3px;
+    border-radius: 5px;
+    border: 2px solid rebeccapurple;
+    width: 142px;
+
+
+}
+
+
+.btn2:hover {
+    background-color: var(--btnColor_1);
+    transform: scale(1.05);
+}
+
+
+.shopingBasket {
+    width: 30px;
+    height: 30px;
+}
