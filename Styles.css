@@ -175,14 +175,8 @@ form.example::after {
     color: rgb(175, 54, 54);
     font-size: 17px;
     text-align: center;
-    animation: textAni 10s infinite;
 }
 
-@keyframes textAni {
-    20% {
-        font: 3px bold;
-    }
-}
 
 
 .Number {
@@ -359,16 +353,11 @@ button .sceoltop22 {
     border-radius: 5px;
     border: 2px solid rebeccapurple;
     width: 177px;
-    animation: buttonAni 2s infinite;
 
 
 }
 
-@keyframes buttonAni {
-    20% {
-        border: 4px solid rgb(168, 69, 30);
-    }
-}
+
 
 
 .btn2:hover {
