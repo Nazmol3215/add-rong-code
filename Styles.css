@@ -175,6 +175,7 @@ form.example::after {
     color: rgb(175, 54, 54);
     font-size: 17px;
     text-align: center;
+    z-index: 2;
 }
 
 
@@ -311,12 +312,12 @@ button .sceoltop22 {
 .containerFirst {
 
     width: 196px;
-    height: 313px;
+    height: 319px;
     position: relative;
     border: 5px solid green;
     margin: 2px;
     display: inline-block;
-    margin-left: 11px;
+    margin-left: 9px;
 
 
 }
@@ -324,8 +325,8 @@ button .sceoltop22 {
 .imgone {
     width: 177px;
     height: 100;
-    display: block;
     margin: 3px;
+    position: relative;
 }
 
 .btn1 {
@@ -353,12 +354,41 @@ button .sceoltop22 {
     border-radius: 5px;
     border: 2px solid rebeccapurple;
     width: 177px;
+    position: absolute;
+    margin-top: 26px;
+
+
+}
+
+.btn22 {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: var(--btnColor);
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin: 1px;
+    margin-left: 3px;
+    border-radius: 5px;
+    border: 2px solid rebeccapurple;
+    width: 177px;
+    margin-top: 55px;
+
 
 
 }
 
 
 
+
+.btn22:hover {
+    background-color: var(--btnColor_1);
+    transform: scale(1.05);
+}
 
 .btn2:hover {
     background-color: var(--btnColor_1);
@@ -369,4 +399,74 @@ button .sceoltop22 {
 .shopingBasket {
     width: 30px;
     height: 30px;
+}
+
+
+
+
+.find {
+
+
+    width: 16px;
+    height: 33px;
+    border: 3px solid rebeccapurple;
+    font-size: 2rem;
+
+    font-weight: bold;
+
+    justify-content: center;
+    color: #2196F3;
+    padding: 63px;
+
+}
+
+.input {
+    width: 87%;
+    height: 52px;
+    font-weight: bold;
+    margin-bottom: 22px;
+    padding: 10px;
+    justify-content: center;
+    margin-left: 33px;
+
+
+
+}
+
+
+
+
+
+input[type="text"] {
+    color: oldlace;
+    background-color: var(--btnColor_1);
+    font-size: 22px;
+    text-align: center;
+    border-radius: 60px;
+    border: 4px solid #5dff1d;
+}
+
+
+
+
+
+.imgone:hover {
+    background-color: var(--btnColor_1);
+    transform: scale(1.05);
+}
+
+
+
+
+
+.hfour {
+    color: var(--btnColor_1);
+    position: absolute;
+    margin-top: 0px;
+    text-align: center;
+
+}
+
+div h4 {
+    text-align: center;
 }
